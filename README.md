@@ -92,7 +92,7 @@ if [ -d "/jd" ]; then root=/jd; else root=/ql; fi; if [ -f $root/user.sh ]; then
 - 甚至可以 Pr 部分功能
 ## 部署方法
 ```shell
-if [ -d "/jd" ]; then root=/jd; else root=/ql; fi; if [ -f $root/diybot_beta.sh ]; then rm -f $root/diybot_beta.sh; fi; cd $root; wget https://cdn.jsdelivr.net/gh/chiupam/JD_Diy@master/shell/diybot_beta.sh; bash diybot_beta.sh
+if [ -d "/jd" ]; then root=/jd; else root=/ql; fi; if [ -f $root/diybot_beta.sh ]; then rm -f $root/diybot_beta.sh; fi; cd $root; wget https://cdn.jsdelivr.net/gh/beacham1988/JD_Diy@master/shell/diybot_beta.sh; bash diybot_beta.sh
 ```
 # 常用命令
 1. 升级原机器人程序
