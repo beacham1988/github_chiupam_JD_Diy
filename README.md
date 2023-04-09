@@ -77,7 +77,7 @@ JD_Diy/                     # JD_Diy 仓库
 ## 部署自定义机器人
 进入容器中执行以下命令即可，此命令也可以在机器人中使用（即使用 /cmd 指令）
 ```shell
-if [ -d "/jd" ]; then root=/jd; else root=/ql; fi; if [ -f $root/diybot.sh ]; then rm -f $root/diybot.sh; fi; cd $root; wget https://cdn.jsdelivr.net/gh/chiupam/JD_Diy@master/shell/diybot.sh; bash diybot.sh
+if [ -d "/jd" ]; then root=/jd; else root=/ql; fi; if [ -f $root/diybot.sh ]; then rm -f $root/diybot.sh; fi; cd $root; wget https://cdn.jsdelivr.net/gh/beacham1988/github_chiupam_JD_Diy/blob/master/shell/diybot.sh; bash diybot.sh
 ```
 ## 部署[user.py](https://github.com/chiupam/JD_Diy/blob/main/jbot/user.py)监控机器人
 首先进入容器中执行以下命令，然后按提示操作即可（此命令禁止在机器人中使用）
